@@ -11,11 +11,11 @@ design work.
 | `schema.sql` | Full DDL — 7 tables, 2 views, 2 triggers, indexes |
 | `seed_data.sql` | Realistic sample data (students, instructors, courses, sections, enrollments) |
 | `course_registration.db` | Pre-built SQLite database (schema + seed data already loaded) |
-| `course_registration_interface.html` | **Working interface** — open this file in any browser, no server or install needed |
+| `index.html` | **Working interface** — open this file in any browser, no server or install needed |
 
 ## Open the interface
 
-Just double-click `course_registration_interface.html`, or drag it into a
+Just double-click `index.html`, or drag it into a
 browser tab. It runs SQLite compiled to WebAssembly (sql.js) entirely
 client-side and loads the real `.db` file's data. There's nothing to install
 and no backend to stand up — which makes it easy to demo live or record a
